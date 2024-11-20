@@ -1,0 +1,10 @@
+Django
+python-dotenv
+requests
+selenium
+imaplib
+threading
+python-dotenv
+psycopg2
+whitenoise
+wfastcgi

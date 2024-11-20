@@ -1,0 +1,415 @@
+.header-div nav ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+body{
+    background-image: url('../images/BG.svg');
+}
+
+nav {
+    width: 100%;
+    min-height: 50px;
+    height: 7vh;
+    background: rgb(212 216 241);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    display: flex;
+    font-size: larger;
+
+}
+
+
+.Container-div{
+    width: 100%;
+    height: 100vh;
+    /* padding: 30px; */
+    /* background-color: azure; */
+    color: white;
+    /* position: relative; */
+    margin-top: 68px;
+    /* border: 1px solid white; */
+}
+
+.first_div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Container-div div{
+    padding: 30px;
+    /* display: flex;
+    justify-content: center; */
+    /* width: 100%; */
+}
+
+.p_statement{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Q_prom{
+    width: 80%;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    /* padding-top: 0.1rem; */
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+table {
+    background-color: rgb(212 216 241);
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.Industry_Type{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Industry_Type label{
+    font-size: 18px;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.Industry_Type select{
+    outline: none;
+    border: none;
+    width: 250px;
+    min-width: 180px;
+    min-height: 40px;
+}
+
+.Problem_Type, .Description_Type{
+    padding: 10px !important;
+}
+
+.Problem_Type label, .Description_Type label{
+    color: black;
+    font-size: 18px;
+}
+
+.Problem_Type textarea, .Description_Type textarea{
+    outline: none;
+    border: none;
+    min-width: 95%;
+    border-radius: 5px;
+    min-height: 60px;
+    margin-top: 5px;
+    /* margin-left: 100px; */
+}
+
+.type_Q ul{
+    display: flex;
+    justify-content: center;
+}
+
+.type_Q ul li{
+    list-style: none;
+    color: black;
+    margin: 15px;
+    border: 1px solid silver;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #93c4e6;
+}
+
+.type_Q ul li:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+
+.Question_type_lib{
+    padding: 0px !important;
+}
+
+.type_Q{
+    padding: 0px !important;
+}
+
+.q_type_N label{
+    color: black;
+}
+
+.Question_container_demo,.Question_container_Screener,.Question_container_Main{
+    display: none;
+}
+
+.Question_container_Question{
+    border: 1px solid white;
+}
+
+.Question_container_Question label{
+    border: 1px solid white;
+}
+
+.Question_container_Screener,.Question_container_demo,.Question_container_Main{
+    border: 1px solid white;
+}
+
+.Question_container_Screener label, .Question_container_demo label, .Question_container_Main label{
+    color: black;
+    font-size: 18px;
+}
+
+.S_Q_Set, .S_Q_Set_demo, .S_Q_Set_Main, .S_Q_Set_N{
+    padding: 0px !important;
+}
+
+.S_Q_Set_N label{
+    color: black;
+}
+
+.S_Q_Set div, .S_Q_Set_demo div, .S_Q_Set_Main div,.S_Q_Set_N div{
+    padding: 1px !important;
+}
+
+.inpt_text{
+    width: 95%;
+}
+
+.q_sel_type, .q_sel_type_demo, .q_sel_type_Main, .q_sel_type_N{
+    display: flex;
+    justify-content: center;
+}
+
+.q_sel_type button, .q_sel_type_demo button, .q_sel_type_Main button, .q_sel_type_N button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.q_sel_type select, .q_sel_type_demo select, .q_sel_type_Main select, .q_sel_type_N select{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline:none;
+}
+
+/* .show_row_option, .show_column_option{
+    display: none;
+} */
+
+
+.show_row_option_New{
+    position: relative;
+}
+
+.question_label_text, .question_label_text_demo, .question_label_text_Main{
+    width: 95%;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.question_label_text_N{
+    width: 50%;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.Que_text label{
+    margin-left: 5px;
+    /* width: 80%; */
+}
+
+.question_response_text, .question_response_text_demo, .question_response_text_Main{
+    width: 95%;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.add_new, .add_new_demo, .add_new_Main{
+    display: none;
+    justify-content: end;
+}
+
+.add_new button, .add_new_demo button, .add_new_Main button{
+    border: none;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.Row_addiion, .Col_addiion{
+    border: none;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #373a3e;
+    color: white;
+}
+
+.add_submit button{
+    display: flex;
+    justify-content: center;
+    border: none;
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #373a3e;
+    color: white;
+}
+
+.add_submit{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cate_check{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    display: flex;
+    /* justify-content: center; */
+    background: white;
+    margin-left: 245px;
+    width: 220px;
+}
+
+.cate_check_N{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    display: flex;
+    /* justify-content: center; */
+    background: white;
+    width: 95%;
+    max-width: 450px;
+    min-width: 200px;
+    border-radius: 5px;
+    margin-bottom:5px;
+}
+
+.Cat_show{
+    height: 200px;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 1;
+    width: 20%;
+    /* right: 230px; */
+}
+
+.cate_text{
+    margin-left: 5px;
+}
+
+.MQ_TYPE, .MQ_TYPE_Second{
+    margin-left: 20px;
+    height: 40px;
+    /* margin-top: -4px; */
+    width: 20%;
+    max-width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.category_selection{
+    margin-left: 20px;
+    height: 40px;
+    width: 90%;
+    max-width: 500px;
+    min-width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.file-label {
+    background-color: #0075c5;
+    color: white !important;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    padding: 5px !important;
+    margin-left: 50px !important;
+  }
+
+  #file-chosen{
+    color: black;
+    padding: 10px;
+    /* font-size: 18px; */
+  }
+
+section::-webkit-scrollbar{
+    display: none;
+  }
+
+  .Sel_Cat{
+    width: 25%;
+  }
+
+@media only screen and (max-width: 1366px) {
+    .Industry_Type select{
+        outline: none;
+        border: none;
+        width: 180px;
+        min-height: 30px;
+    }
+
+    .Industry_Type label{
+        margin-top:5px;
+        padding:0px;
+    }
+
+    .question_label_text_N{
+        width: 50%;
+    }
+
+    .get_screener_row,.get_screener_column_text{
+        width: 500px;
+    }
+  }
